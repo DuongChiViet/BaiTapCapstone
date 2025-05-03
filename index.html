@@ -10,6 +10,11 @@
     <title>BAI TAP CAPSTONE - VIET LUAN</title>
     <link rel="icon" href="favicon.ico">
     <link href="./CSS/style.css" rel="stylesheet">
+        <!-- link tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- link flowbite -->
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     
 </head>
 
@@ -29,34 +34,34 @@
 
     <!-- Duong CHi Viet -->
     <!--=====Projects =====-->
-    <section class="pg pj vp mr oj wp nr">
+    <section class="overflow-hidden pt-20 pt-[6.25rem] pt-[7.5rem] pb-10 pb-[3.75rem] pb-20">
         <!-- Section Title Start -->
         <div
-            x-data="{ sectionTitle: `We Offer Great Affordable Premium Prices.`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}">
-            <div class="animate_top bb ze rj ki xn vq">
-                <h2 x-text="sectionTitle" class="fk vj pr kk wm on/5 gq/2 bb _b">
+            x-data="{ sectionTitle: `We Offer Great Affordable Premium Prices.`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when loopx-4ng at its layout. The point of using.`}">
+            <div class="font-bold animate_top mx-auto max-w-[86.875rem] text-center px-4 px-8 px-0">
+                <h2 x-text="sectionTitle" class="font-semibold text-[1.875rem] leading-[2.25rem] pr kk wm on/5 gq/2 mx-auto _b">
                 </h2>
-                <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+                <p class="mx-auto on/5 wo/5 hq font-normal" x-text="sectionTitleText"></p>
             </div>
         </div>
         <!-- Section Title End -->
-        <div class="bb ze ki xn 2xl:ud-px-0 jb" x-data="{filterTab: 1}">
+        <div class="mx-auto max-w-[86.875rem] px-4 px-8 2xl:ud-px-0 jb" x-data="{filterTab: 1}">
             <!-- Porject Tab -->
-            <div class="projects-tab _e bb tc uf wf xf cg rg hh rm vk xm si ti fc">
+            <div class="projects-tab _e mx-auto tc uf wf xf cg rg hh rm vk xm si ti fc">
                 <button data-filter="*" @click="filterTab = 1" :class="{ 'gh lk' : filterTab === 1 }"
-                    class="project-tab-btn ek rg ml il vi mi">
+                    class="project-tab-btn font-medium rg ml il vi mi">
                     All
                 </button>
                 <button data-filter=".branding" @click="filterTab = 2" :class="{ 'gh lk' : filterTab === 2 }"
-                    class="project-tab-btn ek rg ml il vi mi">
+                    class="project-tab-btn font-medium rg ml il vi mi">
                     Branding Strategy
                 </button>
                 <button data-filter=".digital" @click="filterTab = 3" :class="{ 'gh lk' : filterTab === 3 }"
-                    class="project-tab-btn ek rg ml il vi mi">
+                    class="project-tab-btn font-medium rg ml il vi mi">
                     Digital Experiences
                 </button>
                 <button data-filter=".ecommerce" @click="filterTab = 4" :class="{ 'gh lk' : filterTab === 4 }"
-                    class="project-tab-btn ek rg ml il vi mi">
+                    class="project-tab-btn font-medium rg ml il vi mi">
                     Ecommerce
                 </button>
             </div>
@@ -66,11 +71,11 @@
                 <div class="project-sizer"></div>
                 <!-- Project Item -->
                 <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
-                    <div class="c i pg sg z-1">
+                    <div class="c i overflow-hidden sg z-1">
                         <img src="images/project-01.png" alt="Project" />
 
                         <div class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10">
-                            <h4 class="ek tj kk hc">Photo Retouching</h4>
+                            <h4 class="font-medium tj kk hc">Photo Retouching</h4>
                             <p>Branded Ecommerce</p>
                             <a class="c tc wf xf ie ld rg _g dh ml il ph jm km jc" href="#">
                                 <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
@@ -85,11 +90,11 @@
 
                 <!-- Project Item -->
                 <div class="project-item wi fb vd jn/2 to/3 digital">
-                    <div class="c i pg sg z-1">
+                    <div class="c i overflow-hidden sg z-1">
                         <img src="images/project-02.png" alt="Project" />
 
                         <div class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10">
-                            <h4 class="ek tj kk hc">Photo Retouching</h4>
+                            <h4 class="font-medium tj kk hc">Photo Retouching</h4>
                             <p>Branded Ecommerce</p>
                             <a class="c tc wf xf ie ld rg _g dh ml il ph jm km jc" href="#">
                                 <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
@@ -104,11 +109,11 @@
 
                 <!-- Project Item -->
                 <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
-                    <div class="c i pg sg z-1">
+                    <div class="c i overflow-hidden sg z-1">
                         <img src="images/project-04.png" alt="Project" />
 
                         <div class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10">
-                            <h4 class="ek tj kk hc">Photo Retouching</h4>
+                            <h4 class="font-medium tj kk hc">Photo Retouching</h4>
                             <p>Branded Ecommerce</p>
                             <a class="c tc wf xf ie ld rg _g dh ml il ph jm km jc" href="#">
                                 <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
@@ -123,11 +128,11 @@
 
                 <!-- Project Item -->
                 <div class="project-item wi fb vd vo/3 digital ecommerce">
-                    <div class="c i pg sg z-1">
+                    <div class="c i overflow-hidden sg z-1">
                         <img src="images/project-03.png" alt="Project" />
 
                         <div class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10">
-                            <h4 class="ek tj kk hc">Photo Retouching</h4>
+                            <h4 class="font-medium tj kk hc">Photo Retouching</h4>
                             <p>Branded Ecommerce</p>
                             <a class="c tc wf xf ie ld rg _g dh ml il ph jm km jc" href="#">
                                 <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none"
@@ -148,17 +153,17 @@
         <!-- Section Title Start -->
         <div
             x-data="{ sectionTitle: `Client’s Testimonials`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}">
-            <div class="animate_top bb ze rj ki xn vq">
-                <h2 x-text="sectionTitle" class="fk vj pr kk wm on/5 gq/2 bb _b">
+            <div class="animate_top mx-auto max-w-[86.875rem] text-center px-4 px-8 px-0">
+                <h2 x-text="sectionTitle" class="font-semibold text-[1.875rem] leading-[2.25rem] pr kk wm on/5 gq/2 mx-auto _b">
                 </h2>
-                <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+                <p class="mx-auto on/5 wo/5 hq" x-text="sectionTitleText"></p>
             </div>
 
 
         </div>
         <!-- Section Title End -->
 
-        <div class="bb ze ki xn ar">
+        <div class="mx-auto max-w-[86.875rem] px-4 px-8 ar">
             <div class="animate_top jb cq">
                 <!-- Slider main container -->
                 <div class="swiper testimonial-01">
@@ -176,7 +181,7 @@
 
                                     <div>
                                         <img src="images/icon-quote.svg" alt="Quote" />
-                                        <p class="ek ik xj _p kc fb">
+                                        <p class="font-medium ik xj _p kc fb">
                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dolor diam,
                                             feugiat quis enim sed, ullamcorper semper ligula. Mauris consequat justo
                                             volutpat.
@@ -184,7 +189,7 @@
 
                                         <div class="tc yf vf">
                                             <div>
-                                                <span class="rc ek xj kk wm zb">Devid Smith</span>
+                                                <span class="rc font-medium xj kk wm zb">Devid Smith</span>
                                                 <span class="rc">Founter @democompany</span>
                                             </div>
 
@@ -219,48 +224,48 @@
         </div>
     </section>
     <!-- ===== Counter ===== -->
-    <section class="i pg qh rm ji hp">
+    <section class="i overflow-hidden qh rm ji hp">
         <img src="images/shape-11.svg" alt="Shape" class="of h ga ha ke" />
         <img src="images/shape-07.svg" alt="Shape" class="h ia o ae jf" />
         <img src="images/shape-14.svg" alt="Shape" class="h ja ka" />
         <img src="images/shape-15.svg" alt="Shape" class="h q p" />
 
-        <div class="bb ze i va ki xn br">
+        <div class="mx-auto max-w-[86.875rem] i va px-4 px-8 br">
             <div class="tc uf sn tn xf un gg">
-                <div class="animate_top me/5 ln rj">
-                    <h2 class="gk vj zp or kk wm hc">785</h2>
-                    <p class="ek bk aq">Global Brands</p>
+                <div class="animate_top me/5 ln text-center">
+                    <h2 class="gk text-[1.875rem] leading-[2.25rem] zp or kk wm hc">785</h2>
+                    <p class="font-medium bk aq">Global Brands</p>
                 </div>
-                <div class="animate_top me/5 ln rj">
-                    <h2 class="gk vj zp or kk wm hc">533</h2>
-                    <p class="ek bk aq">Happy Clients</p>
+                <div class="animate_top me/5 ln text-center">
+                    <h2 class="gk text-[1.875rem] leading-[2.25rem] zp or kk wm hc">533</h2>
+                    <p class="font-medium bk aq">Happy Clients</p>
                 </div>
-                <div class="animate_top me/5 ln rj">
-                    <h2 class="gk vj zp or kk wm hc">865</h2>
-                    <p class="ek bk aq">Winning Award</p>
+                <div class="animate_top me/5 ln text-center">
+                    <h2 class="gk text-[1.875rem] leading-[2.25rem] zp or kk wm hc">865</h2>
+                    <p class="font-medium bk aq">Winning Award</p>
                 </div>
-                <div class="animate_top me/5 ln rj">
-                    <h2 class="gk vj zp or kk wm hc">346</h2>
-                    <p class="ek bk aq">Happy Clients</p>
+                <div class="animate_top me/5 ln text-center">
+                    <h2 class="gk text-[1.875rem] leading-[2.25rem] zp or kk wm hc">346</h2>
+                    <p class="font-medium bk aq">Happy Clients</p>
                 </div>
             </div>
         </div>
     </section>
     <!-- ===== Clients ===== -->
-    <section class="pj vp mr">
+    <section class="pt-20 pt-[6.25rem] pt-[7.5rem]">
         <!-- Section Title  -->
         <div
             x-data="{ sectionTitle: `Trusted by Global Brands`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}">
-            <div class="animate_top bb ze rj ki xn vq">
-                <h2 x-text="sectionTitle" class="fk vj pr kk wm on/5 gq/2 bb _b">
+            <div class="animate_top mx-auto max-w-[86.875rem] text-center px-4 px-8 px-0">
+                <h2 x-text="sectionTitle" class="font-semibold text-[1.875rem] leading-[2.25rem] pr kk wm on/5 gq/2 mx-auto _b">
                 </h2>
-                <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+                <p class="mx-auto on/5 wo/5 hq" x-text="sectionTitleText"></p>
             </div>
 
 
         </div>
-        <div class="bb ze ah ch pm hj xp ki xn 2xl:ud-px-49 bc">
-            <div class="wc rf qn zf cp kq xf wf">
+        <div class="mx-auto max-w-[86.875rem] ah ch pm hj xp px-4 px-8 2xl:ud-px-49 bc">
+            <div class="grid rf qn zf cp kq xf wf">
                 <a href="#" class="rc animate_top">
                     <img class="th wl ml il zl om" src="images/brand-light-01.svg" alt="Clients" />
                     <img class="xc sk ml il zl nm" src="images/brand-dark-01.svg" alt="Clients" />
@@ -293,21 +298,21 @@
         <!-- Section Title-->
         <div
             x-data="{ sectionTitle: `Latest Blogs & News`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}">
-            <div class="animate_top bb ze rj ki xn vq">
-                <h2 x-text="sectionTitle" class="fk vj pr kk wm on/5 gq/2 bb _b">
+            <div class="animate_top mx-auto max-w-[86.875rem] text-center px-4 px-8 px-0">
+                <h2 x-text="sectionTitle" class="font-semibold text-[1.875rem] leading-[2.25rem] pr kk wm on/5 gq/2 mx-auto _b">
                 </h2>
-                <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+                <p class="mx-auto on/5 wo/5 hq" x-text="sectionTitleText"></p>
             </div>
         </div>
-        <div class="bb ye ki xn vq jb jo">
-            <div class="wc qf pn xo zf iq">
+        <div class="mx-auto ye px-4 px-8 px-0 jb jo">
+            <div class="grid qf pn xo zf iq">
                 <!-- Blog Item -->
                 <div class="animate_top sg vk rm xm">
-                    <div class="c rc i z-1 pg">
+                    <div class="c rc i z-1 overflow-hidden">
                         <img class="w-full" src="images/blog-01.png" alt="Blog" />
 
                         <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
-                            <a href="#" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
+                            <a href="#" class="vc font-medium rg lk gh sl ml il gi hi">Read More</a>
                         </div>
                     </div>
 
@@ -322,18 +327,18 @@
                                 <p>25 Dec, 2025</p>
                             </div>
                         </div>
-                        <h4 class="ek tj ml il kk wm xl eq lb">
+                        <h4 class="font-medium tj ml il kk wm xl eq lb">
                             <a href="#">Free advertising for your online business</a>
                         </h4>
                     </div>
                 </div>
                 <!-- Blog Item -->
                 <div class="animate_top sg vk rm xm">
-                    <div class="c rc i z-1 pg">
+                    <div class="c rc i z-1 overflow-hidden">
                         <img class="w-full" src="images/blog-02.png" alt="Blog" />
 
                         <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
-                            <a href="#" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
+                            <a href="#" class="vc font-medium rg lk gh sl ml il gi hi">Read More</a>
                         </div>
                     </div>
 
@@ -348,18 +353,18 @@
                                 <p>25 Dec, 2025</p>
                             </div>
                         </div>
-                        <h4 class="ek tj ml il kk wm xl eq lb">
+                        <h4 class="font-medium tj ml il kk wm xl eq lb">
                             <a href="#">9 simple ways to improve your design skills</a>
                         </h4>
                     </div>
                 </div>
                 <!-- Blog Item -->
                 <div class="animate_top sg vk rm xm">
-                    <div class="c rc i z-1 pg">
+                    <div class="c rc i z-1 overflow-hidden">
                         <img class="w-full" src="images/blog-03.png" alt="Blog" />
 
                         <div class="im h r s df vd yc wg tc wf xf al hh/20 nl il z-10">
-                            <a href="#" class="vc ek rg lk gh sl ml il gi hi">Read More</a>
+                            <a href="#" class="vc font-medium rg lk gh sl ml il gi hi">Read More</a>
                         </div>
                     </div>
 
@@ -374,7 +379,7 @@
                                 <p>25 Dec, 2025</p>
                             </div>
                         </div>
-                        <h4 class="ek tj ml il kk wm xl eq lb">
+                        <h4 class="font-medium tj ml il kk wm xl eq lb">
                             <a href="#">Tips to quickly improve your coding speed.</a>
                         </h4>
                     </div>
@@ -384,7 +389,7 @@
     </section>
 
     <!-- ===== Contact ===== -->
-    <section id="support" class="i pg fh rm ji gp uq">
+    <section id="support" class="i overflow-hidden fh rm ji gp uq">
         <!-- Bg Shapes -->
         <img src="images/shape-06.svg" alt="Shape" class="h aa y" />
         <img src="images/shape-03.svg" alt="Shape" class="h ca u" />
@@ -395,16 +400,16 @@
         <!-- Section Title -->
         <div
             x-data="{ sectionTitle: `Let’s Stay Connected`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}">
-            <div class="animate_top bb ze rj ki xn vq">
-                <h2 x-text="sectionTitle" class="fk vj pr kk wm on/5 gq/2 bb _b">
+            <div class="animate_top mx-auto max-w-[86.875rem] text-center px-4 px-8 px-0">
+                <h2 x-text="sectionTitle" class="font-semibold text-[1.875rem] leading-[2.25rem] pr kk wm on/5 gq/2 mx-auto _b">
                 </h2>
-                <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
+                <p class="mx-auto on/5 wo/5 hq" x-text="sectionTitleText"></p>
             </div>
         </div>
         <!-- Section Title -->
-        <div class="i va bb ye ki xn wq jb mo">
+        <div class="i va mx-auto ye px-4 px-8 wq jb mo">
             <div class="tc uf sn tf rn un zf xl:gap-10">
-                <div class="animate_top w-full mn/5 to/3 vk sg hh sm yh rq i pg">
+                <div class="animate_top w-full mn/5 to/3 vk sg hh sm yh rq i overflow-hidden">
                     <!-- Bg Shapes -->
                     <img src="images/shape-03.svg" alt="Shape" class="h la x wd" />
                     <img src="images/shape-06.svg" alt="Shape" class="h la ma ne kf" />
@@ -526,14 +531,14 @@
 
 
     <!-- ===== CTA ===== -->
-    <section class="i pg gh ji">
+    <section class="i overflow-hidden gh ji">
         <!-- Bg Shape -->
         <img class="h p q" src="images/shape-16.svg" alt="Bg Shape" />
 
-        <div class="bb ye i z-10 ki xn dr">
+        <div class="mx-auto ye i z-10 px-4 px-8 dr">
             <div class="tc uf sn tn un gg">
                 <div class="animate_left to/2">
-                    <h2 class="fk vj zp pr lk ac">
+                    <h2 class="font-semibold vj zp pr lk ac">
                         Join with 5000+ Startups Growing with Base.
                     </h2>
                     <p class="lk">
@@ -542,7 +547,7 @@
                     </p>
                 </div>
                 <div class="animate_right bf">
-                    <a href="#" class="vc ek kk hh rg ol il cm gi hi">
+                    <a href="#" class="vc font-medium kk hh rg ol il cm gi hi">
                         Get Started Now
                     </a>
                 </div>
@@ -552,7 +557,7 @@
     </main>
     <!-- ===== Footer===== -->
     <footer>
-        <div class="bb ze ki xn 2xl:ud-px-0">
+        <div class="mx-auto max-w-[86.875rem] px-4 px-8 2xl:ud-px-0">
             <!-- Footer Top -->
             <div class="ji gp">
                 <div class="tc uf ap gg fp">
@@ -645,7 +650,7 @@
                                 <li>
                                     <a href="#" class="sc xl vb">
                                         Careers
-                                        <span class="sc ek uj lk nh rg zi _i nc">Hiring</span>
+                                        <span class="sc font-medium uj lk nh rg zi _i nc">Hiring</span>
                                     </a>
                                 </li>
                                 <li><a href="#" class="sc xl vb">Pricing</a></li>

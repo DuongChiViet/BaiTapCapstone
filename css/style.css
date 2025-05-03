@@ -413,10 +413,6 @@ textarea {
 .ab{
   margin: 0px;
 }
-.bb{
-  margin-left: auto;
-  margin-right: auto;
-}
 .cb{
   margin-top: 2.875rem;
   margin-bottom: 2.875rem;
@@ -564,9 +560,6 @@ textarea {
 }
 .vc{
   display: inline-flex;
-}
-.wc{
-  display: grid;
 }
 .xc{
   display: none;
@@ -746,9 +739,6 @@ textarea {
 .ye{
   max-width: 80rem;
 }
-.ze{
-  max-width: 86.875rem;
-}
 ._e{
   max-width: -moz-fit-content;
   max-width: fit-content;
@@ -906,9 +896,6 @@ textarea {
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
   margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-.pg{
-  overflow: hidden;
 }
 .qg{
   overflow-y: scroll;
@@ -1081,10 +1068,6 @@ textarea {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-.ki{
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 .li{
   padding-top: 1.125rem;
   padding-bottom: 1.125rem;
@@ -1195,12 +1178,6 @@ textarea {
 .nj{
   padding-top: 2.75rem;
 }
-.oj{
-  padding-bottom: 2.5rem;
-}
-.pj{
-  padding-top: 5rem;
-}
 .qj{
   padding-right: 2.5rem;
 }
@@ -1217,10 +1194,6 @@ textarea {
 .uj{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.vj{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 .wj{
   font-size: 22px;
@@ -1257,12 +1230,6 @@ textarea {
 .dk{
   font-size: 16px;
   line-height: 26px;
-}
-.ek{
-  font-weight: 500;
-}
-.fk{
-  font-weight: 600;
 }
 .gk{
   font-weight: 700;
@@ -1719,12 +1686,6 @@ textarea {
   .wn{
     fill: #FFFFFF;
   }
-
-  .xn{
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-
   .yn{
     padding-left: 1.875rem;
     padding-right: 1.875rem;
@@ -1959,15 +1920,6 @@ textarea {
   .up{
     padding-bottom: 3rem;
   }
-
-  .vp{
-    padding-top: 6.25rem;
-  }
-
-  .wp{
-    padding-bottom: 3.75rem;
-  }
-
   .xp{
     padding-bottom: 5.625rem;
   }
@@ -2074,12 +2026,6 @@ textarea {
     padding-top: 7.5rem;
     padding-bottom: 7.5rem;
   }
-
-  .vq{
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .wq{
     padding-left: 2.25rem;
     padding-right: 2.25rem;
@@ -2156,15 +2102,6 @@ textarea {
   .lr{
     padding-bottom: 4.25rem;
   }
-
-  .mr{
-    padding-top: 7.5rem;
-  }
-
-  .nr{
-    padding-bottom: 5rem;
-  }
-
   .or{
     font-size: 50px;
     line-height: 62px;
