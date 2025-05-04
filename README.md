@@ -1,3 +1,7 @@
+LỖI: bài up lên host ko nhận css
+
+
+
 Tóm tắt phân công:
 Hồ Vũ Luân: làm phần đầu cho đến phần cho đến We Offer Great Affordable Premium Prices. (Bill)
 Dương Chí Việt: tiếp theo cho đến hết 
